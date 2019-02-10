@@ -23,6 +23,7 @@ sudo apt install ./vscode.deb -y
 
 # Install node/npm via nvm
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+. ~/.nvm/nvm.sh
 nvm install node
 nvm use node
 
