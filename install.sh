@@ -59,6 +59,6 @@ sudo ln -s /opt/tools/Postman/Postman /usr/bin/Postman
 sudo apt-get install git-flow meld -y
 
 # Add useful aliases
-echo "alias ll=\"ls -l\"" >> ~/.bashrc
+sed -i -r "s/#(alias (l=|la=|ll=))/\1/" ~/.bashrc
 
 . .bashrc
