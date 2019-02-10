@@ -37,6 +37,7 @@ npm install -g swagger-node-codegen
 npm install -g forever
 npm install -g @angular/cli
 npm install -g @vue/cli
+npm install -g sails
 
 # Install Postman
 sudo apt-get install libgconf-2.4 -y
